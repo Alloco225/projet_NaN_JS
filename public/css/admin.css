@@ -1,0 +1,33 @@
+body {
+  background-image: url("../img/waffles-2190961_1920.jpg");
+  background-size: cover;
+  color: white;
+}
+#add-article {
+  width: 25em;
+  max-width: 100%;
+  margin-top: 10%;
+  padding: 3em;
+  border-radius: 2em;
+}
+#add-article:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0em 0.2em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+/* framework */
+.btn-block {
+  width: 15em !important;
+  max-width: 75% !important;
+}
+input[type="file"],
+input[type="text"] {
+  width: 100%;
+  height: 2.2em;
+  border-radius: 0.5em;
+  border: 0.1em solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+input[type="submit"] {
+  margin: auto;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/assets/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/admin.css" />
+    <link
+      rel="shortcut icon"
+      href="../public/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>petitChef</title>
+  </head>
+  <body>
+    <div id="add-article" class="container">
+      <div class="row justify-content-center text-center">
+        <h2>Ajouter un article</h2>
+        <form enctype="multipart/form-data" action="article" method="post">
+          <label for="img">Image du plat</label>
+          <input type="file" name="img" id="" /><br />
+          <label for="recette">Recette</label>
+          <input type="text" name="recette" id="" /><br />
+          <div class="text-center">
+            <input
+              type="submit"
+              value="Partager"
+              class="btn btn-success btn-block"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

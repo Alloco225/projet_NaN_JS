@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+:focus {
+  outline: none !important;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  font-style: italic;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serifs;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/* Styliser la barre de navigation  */
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5em;
+}
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: black;
+  border-radius: 5em;
+}
+body::-webkit-scrollbar-button {
+  display: none;
+}
+#mirror {
+  background-image: url("../img/pasta-1181189_1920.jpg");
+  background-size: cover;
+  height: 43em;
+  max-height: 100%;
+  color: white;
+  padding-top: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+nav form {
+  float: right;
+}
+nav form input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 2em;
+  width: 18em;
+  padding-left: 0.7em;
+}
+.mirror-body {
+  max-width: 100%;
+  width: 40em;
+  margin: auto;
+  margin-top: 10%;
+}
+.mirror-body p {
+  font-size: 2.5em;
+  font-family: amaze, roboto;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+}
+#social-link {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 2.5em;
+  margin-left: 0.2em;
+  z-index: 100;
+}
+#articles {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#publy {
+  background-color: #f3f7f8;
+}
+#inscription {
+  background-image: url("../img/cook-366875_1920.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+  height: 44em;
+  padding: 3em;
+  text-align: center;
+  color: white;
+}
+#inscription form {
+  line-height: 1.9em;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2em;
+  border-radius: 2em;
+  width: 22em;
+  margin: auto;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 100%;
+}
+#inscription form input {
+  width: 100%;
+  height: 2.2em;
+  border-radius: 0.5em;
+  border: none;
+}
+#inscription form textarea {
+  width: 100%;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+#inscription form input[type="submit"] {
+  width: 7em;
+  margin-top: 1em;
+  background-color: rgb(27, 189, 27);
+  color: white;
+}
+footer {
+  background-color: rgb(221, 124, 54);
+  padding: 2em;
+}
+footer form {
+  margin: auto;
+  width: 22em;
+  max-width: 100%;
+  text-align: center;
+}
+footer form input[type="text"] {
+  border-bottom: 0.2em solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: transparent;
+  width: 45%;
+  padding-left: 0.5em;
+  height: 2em;
+}
+footer form input[type="email"] {
+  width: 100%;
+  border-bottom: 0.2em solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: transparent;
+  padding-left: 0.5em;
+  margin-top: 1em;
+}
+footer form input[type="submit"] {
+  margin-top: 1.5em;
+  width: 10em;
+  height: 2em;
+  border-radius: 1em;
+  border: none;
+  color: white;
+  background-color: darkslategray;
+}
+footer .outils {
+}
+footer ul li {
+  list-style: none;
+}
+footer small {
+  float: right;
+  color: black;
+}
+footer small span {
+  color: white;
+}
+/* framework*/
+.btn-block {
+  width: 15em !important;
+  max-width: 75% !important;
+}
+.modal-body input[type="email"],
+.modal-body input[type="password"] {
+  width: 100%;
+  height: 2.2em;
+  border-radius: 0.5em;
+  border: 0.1em solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+.modal-body input[type="submit"] {
+  margin: auto;
+}
